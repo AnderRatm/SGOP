@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/botaoselecionado" android:state_pressed="true"/>
+    
+  <!--    <item android:drawable="@drawable/botaofoco" android:state_focused="true"/>
+    <item android:drawable="@drawable/botaonormal"/> -->
+
+</selector><!-- From: file:/home/anderson/Dropbox/S.I/Android/Android_Studio/SGOP/app/src/main/res/drawable/botao.xml -->

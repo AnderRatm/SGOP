@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_rectangle_radius_gradient"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sgop.activity.LoginActivity" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="start" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:alpha=".100"
+            android:scaleType="fitXY"
+            android:src="@drawable/dollar1" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@+id/email"
+            android:text="E-mail : "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/Senha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/email_txt"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Senha : "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/tv_cadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/tv_rec_senha"
+            android:layout_below="@+id/tv_rec_senha"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:onClick="Onclick"
+            android:text="Ainda não sou cadastrado"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textIsSelectable="true" />
+
+        <EditText
+            android:id="@+id/email_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/email"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:hint="email@example.com"
+            android:inputType="textEmailAddress" />
+
+        <requestFocus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/senha_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/Senha"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_toRightOf="@+id/requestFocus1"
+            android:ems="10"
+            android:inputType="textPassword" >
+
+        </EditText>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv_cadastro"
+            android:layout_marginTop="16dp"
+            android:layout_weight="3"
+            android:gravity="end" >
+
+            <Button
+                android:id="@+id/bt_Cadastrar"
+                style="@style/buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="50dp"
+                android:layout_marginStart="50dp"
+                android:text="Entrar" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_rec_senha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/email_txt"
+            android:layout_below="@+id/checkSalvar"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:onClick="Onclick"
+            android:text="Esqueci a senha"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar usuário"
+            android:id="@+id/checkSalvar"
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/senha_txt"
+            android:layout_alignLeft="@+id/tv_rec_senha"
+            android:layout_alignStart="@+id/tv_rec_senha"
+            android:checked="true"
+            android:textSize="12sp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/home/anderson/Dropbox/S.I/Android/Android_Studio/SGOP/app/src/main/res/layout/activity_login.xml -->

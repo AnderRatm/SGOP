@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_rectangle_radius_gradient"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="start" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:alpha=".100"
+            android:scaleType="fitXY"
+            android:src="@drawable/dollar1" />
+
+        <EditText
+            android:id="@+id/descricao_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="48dp"
+            android:ems="10"
+            android:hint="Informe a descrição da entrada"
+            android:inputType="text|textAutoCorrect|textAutoComplete" />
+
+        <requestFocus />
+
+        <EditText
+            android:id="@+id/valor_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/SpinnerCat"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Valor da entrada"
+            android:inputType="number|numberDecimal" />
+
+        <EditText
+            android:id="@+id/dt_entrada_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descricao_txt"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Selecione a data"
+            android:onClick="showDatePickerDialog" />
+
+        <Spinner
+            android:id="@+id/SpinnerCat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dt_entrada_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="16dp"
+            android:ems="10" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/bt_CadastrarEntrada"
+        android:gravity="end" >
+
+        <Button
+            android:id="@+id/bt_CadastrarEntrada"
+            style="@style/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp"
+            android:text="Cadastrar entrada" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

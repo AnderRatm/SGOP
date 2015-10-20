@@ -1,0 +1,254 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gradle/
+* .gradle/1.10/
+* .gradle/1.10/taskArtifacts/
+* .gradle/1.10/taskArtifacts/cache.properties
+* .gradle/1.10/taskArtifacts/cache.properties.lock
+* .gradle/1.10/taskArtifacts/fileHashes.bin
+* .gradle/1.10/taskArtifacts/fileSnapshots.bin
+* .gradle/1.10/taskArtifacts/outputFileStates.bin
+* .gradle/1.10/taskArtifacts/taskArtifacts.bin
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/dictionaries/
+* .idea/dictionaries/Anderson.xml
+* .idea/encodings.xml
+* .idea/gradle.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* MySQLiteOpenHelper.java
+* SGOP- Leitor de Boletos.iml
+* SGOP.iml
+* app/
+* app/app.iml
+* app/build.gradle
+* app/build/
+* app/build/incremental/
+* app/build/incremental/aidl/
+* app/build/incremental/aidl/debug/
+* app/build/incremental/aidl/debug/dependency.store
+* app/build/incremental/mergeAssets/
+* app/build/incremental/mergeAssets/debug/
+* app/build/incremental/mergeAssets/debug/merger.xml
+* app/build/incremental/mergeResources/
+* app/build/incremental/mergeResources/debug/
+* app/build/incremental/mergeResources/debug/merger.xml
+* app/build/libs/
+* app/build/libs/app-debug.ap_
+* app/build/manifests/
+* app/build/manifests/debug/
+* app/build/manifests/debug/AndroidManifest.xml
+* app/build/res/
+* app/build/res/all/
+* app/build/res/all/debug/
+* app/build/res/all/debug/drawable-hdpi/
+* app/build/res/all/debug/drawable-hdpi/cadastro.png
+* app/build/res/all/debug/drawable-hdpi/dollar1.jpg
+* app/build/res/all/debug/drawable-hdpi/edit.png
+* app/build/res/all/debug/drawable-hdpi/ic_background2.png
+* app/build/res/all/debug/drawable-hdpi/ic_launcher.png
+* app/build/res/all/debug/drawable-hdpi/option.png
+* app/build/res/all/debug/drawable-hdpi/papel.jpg
+* app/build/res/all/debug/drawable-mdpi/
+* app/build/res/all/debug/drawable-mdpi/ic_background2.png
+* app/build/res/all/debug/drawable-xhdpi/
+* app/build/res/all/debug/drawable-xhdpi/ic_background2.png
+* app/build/res/all/debug/drawable-xxhdpi/
+* app/build/res/all/debug/drawable-xxhdpi/golden_gate.jpg
+* app/build/res/all/debug/drawable-xxhdpi/lamp.jpg
+* app/build/res/all/debug/layout/
+* app/build/res/all/debug/layout/activity_cadastro.xml
+* app/build/res/all/debug/layout/activity_cadastro2.xml
+* app/build/res/all/debug/layout/activity_cam.xml
+* app/build/res/all/debug/layout/activity_categoria.xml
+* app/build/res/all/debug/layout/activity_entradas.xml
+* app/build/res/all/debug/layout/activity_info_boleto.xml
+* app/build/res/all/debug/layout/activity_login.xml
+* app/build/res/all/debug/layout/activity_principal.xml
+* app/build/res/all/debug/layout/activity_rec_senha.xml
+* app/build/res/all/debug/layout/activity_saidas.xml
+* app/build/res/all/debug/layout/activity_visualizar.xml
+* app/build/res/all/debug/layout/list_layout.xml
+* app/build/res/all/debug/layout/main.xml
+* app/build/res/all/debug/menu/
+* app/build/res/all/debug/menu/main.xml
+* app/build/res/all/debug/values-sw720dp-land/
+* app/build/res/all/debug/values-sw720dp-land/values.xml
+* app/build/res/all/debug/values-v11/
+* app/build/res/all/debug/values-v11/values.xml
+* app/build/res/all/debug/values-v14/
+* app/build/res/all/debug/values-v14/values.xml
+* app/build/res/all/debug/values/
+* app/build/res/all/debug/values/values.xml
+* app/build/source/
+* app/build/source/buildConfig/
+* app/build/source/buildConfig/debug/
+* app/build/source/buildConfig/debug/com/
+* app/build/source/buildConfig/debug/com/example/
+* app/build/source/buildConfig/debug/com/example/projeto1/
+* app/build/source/buildConfig/debug/com/example/projeto1/BuildConfig.java
+* app/build/source/r/
+* app/build/source/r/debug/
+* app/build/source/r/debug/com/
+* app/build/source/r/debug/com/example/
+* app/build/source/r/debug/com/example/projeto1/
+* app/build/source/r/debug/com/example/projeto1/R.java
+* app/libs/
+* app/libs/activation.jar
+* app/libs/additionnal.jar
+* app/libs/mail.jar
+* app/lint.xml
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/java/
+* app/src/main/java/com/
+* app/src/main/java/com/google/
+* app/src/main/java/com/google/zxing/
+* app/src/main/java/com/google/zxing/integration/
+* app/src/main/java/com/google/zxing/integration/android/
+* app/src/main/java/com/google/zxing/integration/android/IntentIntegrator.java
+* app/src/main/java/com/google/zxing/integration/android/IntentResults.java
+* app/src/main/java/com/sgop/
+* app/src/main/java/com/sgop/activity/
+* app/src/main/java/com/sgop/activity/CadCategoria_FonteActivity.java
+* app/src/main/java/com/sgop/activity/CadEntradasActivity.java
+* app/src/main/java/com/sgop/activity/CadastroActivity.java
+* app/src/main/java/com/sgop/activity/CadastroActivityConf.java
+* app/src/main/java/com/sgop/activity/CadastroSaidasActivity.java
+* app/src/main/java/com/sgop/activity/CamActivity.java
+* app/src/main/java/com/sgop/activity/EditarBoleto.java
+* app/src/main/java/com/sgop/activity/ListaBoletoActivity.java
+* app/src/main/java/com/sgop/activity/MainActivity.java
+* app/src/main/java/com/sgop/activity/PrincipalActivity.java
+* app/src/main/java/com/sgop/activity/RecSenhaActivity.java
+* app/src/main/java/com/sgop/dao/
+* app/src/main/java/com/sgop/dao/CadUsuarioDAO.java
+* app/src/main/java/com/sgop/dao/Cad_BoletoDAO.java
+* app/src/main/java/com/sgop/dao/Cad_CategoriaDAO.java
+* app/src/main/java/com/sgop/dao/Cad_EntradaDAO.java
+* app/src/main/java/com/sgop/dao/Cad_SaidasDAO.java
+* app/src/main/java/com/sgop/dao/Cad_cadastroDAO.java
+* app/src/main/java/com/sgop/dao/MySQLiteOpenHelper.java
+* app/src/main/java/com/sgop/fragment/
+* app/src/main/java/com/sgop/fragment/BolListFragment.java
+* app/src/main/java/com/sgop/fragment/Boleto.java
+* app/src/main/java/com/sgop/fragment/BoletoListAdapter.java
+* app/src/main/java/com/sgop/fragment/Categoria.java
+* app/src/main/java/com/sgop/principal/
+* app/src/main/java/com/sgop/principal/AdapterListView.java
+* app/src/main/java/com/sgop/principal/Controller.java
+* app/src/main/java/com/sgop/principal/Editar.java
+* app/src/main/java/com/sgop/principal/Editar_ent_saidas.java
+* app/src/main/java/com/sgop/principal/Entrada.java
+* app/src/main/java/com/sgop/principal/FonteEntrada.java
+* app/src/main/java/com/sgop/principal/GmailSender.java
+* app/src/main/java/com/sgop/principal/ItemListView.java
+* app/src/main/java/com/sgop/principal/JSSEProvider.java
+* app/src/main/java/com/sgop/principal/ListarActivity.java
+* app/src/main/java/com/sgop/principal/Registro.java
+* app/src/main/java/com/sgop/principal/Saida.java
+* app/src/main/java/com/sgop/principal/Sessao.java
+* app/src/main/res/
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/cadastro.png
+* app/src/main/res/drawable-hdpi/dollar1.jpg
+* app/src/main/res/drawable-hdpi/edit.png
+* app/src/main/res/drawable-hdpi/ic_background2.png
+* app/src/main/res/drawable-hdpi/ic_launcher.png
+* app/src/main/res/drawable-hdpi/option.png
+* app/src/main/res/drawable-hdpi/papel.jpg
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/ic_background2.png
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/ic_background2.png
+* app/src/main/res/drawable-xxhdpi/
+* app/src/main/res/drawable-xxhdpi/golden_gate.jpg
+* app/src/main/res/drawable-xxhdpi/lamp.jpg
+* app/src/main/res/layout/
+* app/src/main/res/layout/activity_cadastro.xml
+* app/src/main/res/layout/activity_cadastro2.xml
+* app/src/main/res/layout/activity_cam.xml
+* app/src/main/res/layout/activity_categoria.xml
+* app/src/main/res/layout/activity_entradas.xml
+* app/src/main/res/layout/activity_info_boleto.xml
+* app/src/main/res/layout/activity_login.xml
+* app/src/main/res/layout/activity_principal.xml
+* app/src/main/res/layout/activity_rec_senha.xml
+* app/src/main/res/layout/activity_saidas.xml
+* app/src/main/res/layout/activity_visualizar.xml
+* app/src/main/res/layout/list_layout.xml
+* app/src/main/res/layout/main.xml
+* app/src/main/res/menu/
+* app/src/main/res/menu/main.xml
+* app/src/main/res/values-sw600dp/
+* app/src/main/res/values-sw600dp/dimens.xml
+* app/src/main/res/values-sw720dp-land/
+* app/src/main/res/values-sw720dp-land/dimens.xml
+* app/src/main/res/values-v11/
+* app/src/main/res/values-v11/styles.xml
+* app/src/main/res/values-v14/
+* app/src/main/res/values-v14/styles.xml
+* app/src/main/res/values/
+* app/src/main/res/values/dimens.xml
+* app/src/main/res/values/ids.xml
+* app/src/main/res/values/strings.xml
+* app/src/main/res/values/styles.xml
+* ic_filter-web.png
+* ic_launcher-web.png
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* libs/activation.jar => app/libs/activation.jar
+* libs/additionnal.jar => app/libs/additionnal.jar
+* libs/mail.jar => app/libs/mail.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

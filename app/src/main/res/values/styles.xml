@@ -1,0 +1,66 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="styleName" parent="android:Widget.Holo.Light.EditText" tools:targetApi="11">
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textEmailAddress|textAutoComplete</item>
+        <item name="android:layout_marginLeft">14dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="layout">
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="radio_st">
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="Exibicao_st">
+        <item name="android:textColor">@android:color/background_dark</item>
+    </style>
+
+    <style name="Separador_st">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#1E90FF</item>
+    </style>
+
+    <style name="buttonStyle" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/DarkGreen</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">0.6</item>
+        <item name="android:background">@drawable/button_custom</item>
+        <item name="android:padding">10dp</item>
+    </style>
+	  <!-- Button -->
+    <style name="Button">
+        <item name="android:textColor">#0099CC</item>
+              <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/shape_button</item>
+    </style>
+</resources>

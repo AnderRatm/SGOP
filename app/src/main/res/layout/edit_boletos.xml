@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_rectangle_radius_gradient"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="start" >
+
+        <EditText
+            android:id="@+id/tv_dt_boleto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txv_Cod_boleto"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Data de vencimento"
+            android:inputType="text|date"
+            android:onClick="showDatePickerDialog" />
+
+        <requestFocus />
+
+        <EditText
+            android:id="@+id/tv_valor_boleto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_dt_boleto"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Valor"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/txv_Cat_boleto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv_valor_boleto"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Selecione Categoria do boleto:"
+            android:textColor="@color/Black"
+            android:typeface="sans" />
+
+        <Spinner
+            android:id="@+id/sp_categoria_boleto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txv_Cat_boleto"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/txv_id_boleto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="ID"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black" />
+
+        <TextView
+            android:id="@+id/txv_Cod_boleto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txv_id_boleto"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Codigo: "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/Black" />
+
+        <TextView
+            android:id="@+id/txv_status_boleto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/sp_categoria_boleto"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Selecione o Status do boleto:"
+            android:textColor="#000000"
+            android:typeface="sans" />
+
+        <Spinner
+            android:id="@+id/sp_status_boleto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txv_status_boleto"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/bt_Cadastrar_Boleto"
+        android:gravity="end" >
+
+        <Button
+            android:id="@+id/bt_Cadastrar_Boleto"
+            style="@style/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp"
+            android:text="Cadastrar Boleto" />
+
+    </RelativeLayout>
+
+</LinearLayout>

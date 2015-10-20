@@ -1,0 +1,164 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_rectangle_radius_gradient"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextView01"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shape_rectangle_radius_gradient_inverse"
+            android:scaleType="fitStart"
+            android:src="@drawable/barcode"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/ImageButton01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageButton1"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shape_rectangle_radius_gradient_inverse"
+            android:scaleType="fitEnd"
+            android:src="@drawable/entradas" />
+
+        <ImageButton
+            android:id="@+id/ImageButton02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ImageButton01"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shape_rectangle_radius_gradient_inverse"
+            android:scaleType="fitStart"
+            android:src="@drawable/saidas" />
+
+        <ImageButton
+            android:id="@+id/ImageButton03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ImageButton02"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shape_rectangle_radius_gradient_inverse"
+            android:scaleType="fitEnd"
+            android:src="@drawable/check" />
+
+        <ImageButton
+            android:id="@+id/ImageButton04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ImageButton03"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shape_rectangle_radius_gradient_inverse"
+            android:scaleType="fitStart"
+            android:src="@drawable/list1" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageButton1"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="11dp"
+            android:fontFamily="sans-serif"
+            android:text="Cadastrar  boletos"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse"
+            android:textColor="@color/DarkGreen"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ImageButton02"
+            android:layout_alignRight="@+id/textView1"
+            android:layout_marginBottom="25dp"
+            android:text="Cadastrar  Despesas"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse"
+            android:textColor="@color/DarkGreen"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/ImageButton03"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="25dp"
+            android:text="Status Mensal"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse"
+            android:textColor="@color/DarkGreen"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ImageButton04"
+            android:layout_alignLeft="@+id/TextView03"
+            android:layout_marginBottom="25dp"
+            android:text="Listar Boletos"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse"
+            android:textColor="@color/DarkGreen"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView04"
+            android:layout_alignTop="@+id/ImageButton01"           
+            android:layout_marginTop="25dp"
+            android:text="Cadastrar  Receitas"
+            android:textAppearance="?android:attr/textAppearanceLargeInverse"
+            android:textColor="@color/DarkGreen"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Bem vindo: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem vindo: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+<gradient
+      android:startColor="@color/Gray"
+      android:endColor="@color/White"
+      android:gradientRadius="326"
+      android:type="radial"/>    
+
+</shape>
+<!-- From: file:/home/anderson/Dropbox/S.I/Android/Android_Studio/SGOP/app/src/main/res/drawable/shape_radial.xml -->

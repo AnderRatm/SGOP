@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/bt_menu"
+        android:icon="@drawable/ic_action_overflow"
+        android:showAsAction="ifRoom"
+        android:title="Opcoes">
+        <menu>
+            <item
+                android:id="@+id/bt_novo"
+                android:icon="@drawable/cadastro"
+                android:showAsAction="ifRoom"
+                android:title="Novo">
+            </item>
+            <item
+                android:id="@+id/bt_pesquisar"
+                android:icon="@drawable/option"
+                android:showAsAction="ifRoom"
+                android:title="Listar">
+            </item>
+            <item
+                android:id="@+id/bt_editar"
+                android:icon="@drawable/edit"
+                android:showAsAction="ifRoom"
+                android:title="Editar">
+            </item>
+        </menu>
+        >
+    </item>
+      <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_exportar_dados"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Exportar dados"/>
+     <item
+        android:id="@+id/action_sobre"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Sobre"/>
+
+</menu><!-- From: file:/home/anderson/Dropbox/S.I/Android/Android_Studio/SGOP/app/src/main/res/menu/main.xml -->

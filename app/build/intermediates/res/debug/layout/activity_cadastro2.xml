@@ -1,0 +1,117 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_rectangle_radius_gradient"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="start" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:alpha=".100"
+            android:src="@drawable/dollar1" />
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toLeftOf="@+id/email"
+            android:text="Nome : "
+             style="@style/layout" />
+
+        <TextView
+            android:id="@+id/Email"
+            style="@style/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nome"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="E-mail : " />
+
+        <TextView
+            android:id="@+id/tv_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Email"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/Email"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_nome"
+            android:layout_alignTop="@+id/Email"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/cod_txt"
+            android:layout_width="100dp"
+           android:layout_height="48dp"
+            android:layout_alignLeft="@+id/label_cod"
+            android:layout_alignRight="@+id/label_cod"
+            android:layout_below="@+id/label_cod"
+            android:layout_marginTop="20dp"
+            android:background="#FFFF66"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/label_cod"
+            style="@style/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="25dp"
+            android:text="Insira o código de ativação : " />
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/bt_finalizar_cadastro"
+        android:layout_weight="1"
+        android:gravity="end" >
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_finalizar_cadastro"
+        style="@style/buttonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignLeft="@+id/relativeLayout1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:text="OK" />
+
+</RelativeLayout>
+
+<!-- From: file:/home/anderson/Dropbox/S.I/Android/Android_Studio/SGOP/app/src/main/res/layout/activity_cadastro2.xml -->

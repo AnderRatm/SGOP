@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_rectangle_radius_gradient"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_entradas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView_Entradas_Visualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Entradas:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#0000FF" />
+
+        <TextView
+            android:id="@+id/textView_Total_ent_Visualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView_Entradas_Visualizar"
+            android:layout_marginTop="16dp"
+             android:layout_marginStart="8dp"
+            android:text="Total entradas:"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView_res_entradas_visualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView_Total_ent_Visualizar"
+            android:layout_alignBottom="@+id/textView_Total_ent_Visualizar"
+            android:layout_marginLeft="8dp"
+             android:layout_marginStart="8dp"
+            android:layout_toRightOf="@+id/textView_Total_ent_Visualizar"
+            android:text="Valor" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/View01"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView_res_entradas_visualizar"
+        android:layout_marginTop="8dp"
+        android:background="@color/Blue" />
+
+    <RelativeLayout
+        android:id="@+id/layout_saidas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/View01"
+        android:orientation="vertical" >
+		
+        
+        <TextView
+            android:id="@+id/textView_Saidas_Visualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+             android:layout_marginStart="8dp"
+            android:text="Saidas:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/TextView_Total_saidas_visualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_Saidas_Visualizar"
+            android:layout_marginTop="16dp"
+             android:layout_marginStart="8dp"
+            android:text="Total saidas:"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/TextView_res_saidas_Visualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/TextView_Total_saidas_visualizar"
+            android:layout_alignBottom="@+id/TextView_Total_saidas_visualizar"
+            android:layout_marginLeft="16dp"
+             android:layout_marginStart="8dp"
+            android:layout_toRightOf="@+id/TextView_Total_saidas_visualizar"
+            android:text="Valor" />
+
+        <View
+            android:id="@+id/View02"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/TextView_res_saidas_Visualizar"
+            android:layout_marginTop="8dp"           
+            android:background="@color/Blue" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView_res_saidas_Visualizar"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView_Total_visualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+             android:layout_marginStart="8dp"
+            android:text="Total:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/TextView_res_total_visualizar"
+            android:layout_width="wrap_content"
+             android:layout_marginStart="8dp"
+             android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView_Total_visualizar"
+            android:text="Valor" />
+    </RelativeLayout>
+
+</LinearLayout>

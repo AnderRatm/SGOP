@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/bt_filter"
+        android:icon="@drawable/ic_filter"
+        android:showAsAction="ifRoom"
+        android:title="Selecione">
+        <menu>
+            <item
+                android:id="@+id/bt_novo"
+                android:icon="@drawable/cadastro"
+                android:showAsAction="ifRoom"
+                android:title="Selecione">
+            </item>
+        </menu>
+        >
+    </item>
+
+</menu>
